@@ -6,14 +6,8 @@ years: [2024, 2023, 2022, 2021, 2020, 2019, 2018]
 nav: true
 sort_menu: 1
 ---
-My research focuses on ...
-
-- **.**: -
-- **.**: -
-- **.**: -
-- **.**: -
-
-Through my research, I aim to -
+My research spans a wide range of topics around language modeling, multimodality and applied research. 
+I am particularly interested in <strong>(1)</strong> (large) language models (LLMs) and other foundation models to solve fundamental or real-world problems, <strong>(2)</strong> modality alignment or multimodality, <strong>(3)</strong> self-supervised learning techniques, and <strong>(4)</strong> geometric deep learning.
 
 ### Publications
 Below is a list of my publications in reversed chronological order. 
