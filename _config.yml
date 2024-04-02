@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 name: Adrián Bazaga
-title: Adrián Bazaga
+title: Adrián Bazaga's Homepage
 email: adrbzg@gmail.com
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -198,7 +198,7 @@ jekyll-archives:
 scholar:
 
   last_name: Bazaga
-  first_name: Adri{\'a}n
+  first_name: Adrián
 
   style: apa
   locale: en

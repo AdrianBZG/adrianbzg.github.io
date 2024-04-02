@@ -76,7 +76,11 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
-              
+
+              <!-- CV link -->
+              <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+                <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/adrianbazaga/">CV</a>
+              </li>
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

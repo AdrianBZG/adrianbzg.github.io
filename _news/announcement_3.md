@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-01-24 07:59:00-0400
+date: 2024-03-16 07:59:00-0400
 inline: true
 ---
 
-News 3
+<strong><span style="color:red">[Paper]</span></strong> Our paper "[Language Model Knowledge Distillation for Efficient Question Answering in Spanish](https://arxiv.org/abs/2312.04193)" has been accepted at [ICLR 2024 Tiny Papers Workshop](https://iclr.cc/Conferences/2024) 🎉
