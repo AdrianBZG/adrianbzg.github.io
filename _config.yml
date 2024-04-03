@@ -65,7 +65,8 @@ stackoverflow_id: #your stackoverflow id
 #rss_icon: true
 
 contact_note: >
-  Please reach out to me by email if you have any question.
+  Please feel free to reach out for questions and collaborations.
+  Thanks <a href="https://maruan.alshedivat.com/" target="_blank" rel="noopener noreferrer">Maruan Al-Shedivat</a> for the template.
 
 google_analytics: UA-99987221-2 # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
