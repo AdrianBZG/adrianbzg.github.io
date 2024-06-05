@@ -22,7 +22,7 @@ selected_papers: true
 
 Welcome to my website!
 
-I am a final-year PhD student at University of Cambridge, working on **Multimodality and Language Models** and supervised by [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) and [Prof. Gos Micklem](https://www.damtp.cam.ac.uk/person/gm263). Before this, I obtained my Bachelor’s in Computer Science and Master’s in Machine Learning degrees from University of La Laguna and Polytechnic University of Catalonia (UPC) in 2017 and 2019.
+I am a final year PhD student at University of Cambridge, working on **Multimodality and Language Models** and supervised by [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) and [Prof. Gos Micklem](https://www.damtp.cam.ac.uk/person/gm263). Before this, I obtained a Bachelor’s in Computer Science and a Master’s in Machine Learning in 2017 and 2019, respectively.
 
 My [research](../research/) focuses on devising architectures for NLP systems, with emphasis on multi-modality and Large Language Models 🤖 for solving both fundamental and real-world problems 🧪. For my engineering work, I'm dedicated to designing software systems for streamlining research, optimizing and scaling ML pipelines. I'm proficient in translating user requirements to software, and my diverse experience enables me to thrive in cross-disciplinary environments. I am dedicated to conducting high-impact research and open for collaborations 👐. 
 
