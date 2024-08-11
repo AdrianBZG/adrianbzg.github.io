@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Adrián</strong> Bazaga
-subtitle: PhD Candidate @ University of Cambridge
+subtitle: AI Research Scientist
 
 profile:
   align: right
@@ -22,11 +22,11 @@ selected_papers: true
 
 Welcome to my website!
 
-I am a final year PhD student at University of Cambridge, working on **Multimodality and Language Models** and supervised by [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) and [Prof. Gos Micklem](https://www.damtp.cam.ac.uk/person/gm263). Before this, I obtained a Bachelor’s in Computer Science and a Master’s in Machine Learning in 2017 and 2019, respectively.
+**Research Interests:**  
+My [research](../research/) is centered around advancing the capabilities of AI, particularly in the realms of multimodality and large language models. I aim to develop innovative architectures that can seamlessly integrate diverse data modalities to address both fundamental challenges and real-world problems 🧪. My current focus is on enhancing generative models, refining their training methodologies, improving inference efficiency, and ensuring robustness and alignment. I am passionate about using AI to contribute to scientific discovery and am always open to collaborations that push the boundaries of what AI can achieve.
 
-My [research](../research/) focuses on devising architectures for NLP systems, with emphasis on multi-modality and Large Language Models 🤖 for solving both fundamental and real-world problems 🧪. For my engineering work, I'm dedicated to designing software systems for streamlining research, optimizing and scaling ML pipelines. I'm proficient in translating user requirements to software, and my diverse experience enables me to thrive in cross-disciplinary environments. I am dedicated to conducting high-impact research and open for collaborations 👐. 
+**Background:**  
+I am a final-year Ph.D. candidate at the University of Cambridge, under the supervision of [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) and [Prof. Gos Micklem](https://www.damtp.cam.ac.uk/person/gm263). My academic journey began with a Bachelor's in Computer Science, followed by a Master's in Machine Learning. I have honed my research skills through internships at leading organizations like Amazon Science and Microsoft Research, where I worked in areas such as reasoning with Large Language Models and training schemes to improve few-step generation for diffusion models.
 
-Tangentially, I've been exploring how advancements in natural language processing, specifically generative models, can enhance and support modern education systems and government. If you are interested in discussing about this, please contact me.
-
-In my free time, you can catch me training in the gym, enjoying nature, or tasting new dishes.
-      
+**Beyond Research:**  
+In addition to my core research, I am exploring how advancements in natural language processing, particularly generative models, can revolutionize education and governance. I am deeply committed to conducting research with a significant impact and am eager to engage in discussions and collaborations that align with these goals 👐.
