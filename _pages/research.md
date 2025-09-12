@@ -6,9 +6,7 @@ years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
 nav: true
 sort_menu: 1
 ---
-My research spans a wide range of topics around generative AI (particularly with Large Language Models and Diffusion Models), multimodality and applied research. 
-
-I am interested in <strong>(1)</strong> leveraging large language models (LLMs) and other foundational models to tackle both fundamental challenges and practical, real-world problems, <strong>(2)</strong> exploring modality alignment and the seamless integration of diverse data modalities, <strong>(3)</strong> developing more robust training methodologies, <strong>(4)</strong> improving inference efficiency, and <strong>(5)</strong> model robustness / alignment. My work is dedicated to creating innovative solutions that not only enhance the performance of AI systems but also contribute meaningfully to impactful projects at global scale.
+My research spans a wide range of topics around generative AI, with a particular focus on LLM research. Currently, I'm interested in <strong>(1)</strong> using foundational LLMs (especially SLMs) to solve both core research questions and real, user-facing problems, <strong>(2)</strong> aligning and integrating multiple modalities so models can reason across diverse inputs and contexts, <strong>(3)</strong> developing robust training methodologies: data-efficient objectives, distillation, refined pre-training and post-training techniques, <strong>(4)</strong> designing efficient architectures for language models, <strong>(5)</strong> improving inference efficiency for low-latency, low-memory execution on consumer hardware, and <strong>(6)</strong> ensuring robustness and alignment through rigorous evaluation, safety safeguards, and reliability testing.
 
 ### Publications
 Below is a list of my publications in reversed chronological order. 
