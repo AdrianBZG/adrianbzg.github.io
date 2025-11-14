@@ -23,7 +23,7 @@ selected_papers: true
 Welcome to my website!
 
 **Background:**  
-I'm a Senior Research Scientist at [Microsoft](https://www.microsoft.com/applied-sciences/people/adrian-bazaga). My current focus is on end-to-end frontier Small Language Model (SLM) development and research, covering the entire stack of data preparation → pretraining → mid-training → post-training → evaluation, as well as shipping agentic experiences directly on user devices for millions of users at global scale.
+Hi, I'm Adrián, a Senior Research Scientist at [Microsoft](https://www.microsoft.com/applied-sciences/people/adrian-bazaga). I'm an established researcher with significant experience in model pre-training, post-training, reasoning, test-time scaling, tool-use, alignment, agents, LLM research, as well as reinforcement learning. Currently, I'm leading end-to-end frontier Language Model (small and large) development and research at Microsoft, covering the entire stack of data preparation → pretraining → mid-training → post-training → evaluation, as well as shipping agentic experiences directly on user devices for millions of users at global scale.
 
 I'm a core contributor to [Mu](https://blogs.windows.com/windowsexperience/2025/06/23/introducing-mu-language-model-and-how-it-enabled-the-agent-in-windows-settings/), Microsoft's blazing-fast on-device SLM, where I played a central role developing the pretraining and post-training pipelines. I also co-led the development of the [Windows Settings AI agent](https://blogs.windows.com/windowsexperience/2025/05/06/introducing-a-new-generation-of-windows-experiences/), already live on Windows Copilot+ devices. These efforts are part of my broader vision to enable seamless, deeply integrated AI experiences for everyone.
 
