@@ -2,11 +2,11 @@
 layout: page
 permalink: /research/
 title: Research
-years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
+years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
 nav: true
 sort_menu: 1
 ---
-My research spans a wide range of topics around generative AI, with a particular focus on LLM research. Currently, I'm interested in <strong>(1)</strong> using foundational LLMs (especially SLMs) to solve both core research questions and real, user-facing problems, <strong>(2)</strong> aligning and integrating multiple modalities so models can reason across diverse inputs and contexts, <strong>(3)</strong> developing robust training methodologies: data-efficient objectives, distillation, refined pre-training and post-training techniques, <strong>(4)</strong> designing efficient architectures for language models, <strong>(5)</strong> improving inference efficiency for low-latency, low-memory execution on consumer hardware, and <strong>(6)</strong> ensuring robustness and alignment through rigorous evaluation, safety safeguards, and reliability testing.
+My research spans a wide range of topics around generative AI, with a particular focus on LLM research. Currently, I'm interested in <strong>(1)</strong> using foundational LLMs (especially SLMs) to solve both core research questions and real, user-facing problems, <strong>(2)</strong> advancing post-training with reinforcement learning (RL), verifiable rewards, reward modeling, and preference optimization, <strong>(3)</strong> expanding agentic capabilities and tool-use for long-horizon, real-world tasks, <strong>(4)</strong> developing robust, data-efficient training methodologies such as distillation and refined pre-training and post-training, while aligning multiple modalities so models can reason across diverse inputs, <strong>(5)</strong> designing efficient architectures and improving inference for low-latency, low-memory execution on consumer hardware, and <strong>(6)</strong> ensuring human alignment and robustness — response quality, conciseness, factuality, and safety — through rigorous evaluation and reliability testing.
 
 ### Publications
 Below is a list of my publications in reversed chronological order. 
