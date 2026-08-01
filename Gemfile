@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+
+# Removed from Ruby's default gems in 4.0.0; required by jekyll-twitter-plugin.
+gem 'ostruct'
+
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
