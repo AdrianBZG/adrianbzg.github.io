@@ -6,8 +6,8 @@
    ========================================================================== */
 
 :root {
-  --rx-serif: "Roboto Slab", Georgia, "Times New Roman", serif;
-  --rx-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --rx-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --rx-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --rx-mono: "SFMono-Regular", ui-monospace, "Roboto Mono", Menlo, Consolas, monospace;
 
   --rx-bg: #ffffff;
@@ -66,8 +66,11 @@ body.rx-page {
   background-color: var(--rx-bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
   line-height: 1.6;
   font-size: 1rem;
+  /* mdb.min.css sets body to 300, a weight we no longer load. */
+  font-weight: 400;
 }
 
 body.rx-page .container { max-width: var(--rx-maxw); }
@@ -82,13 +85,16 @@ body.rx-home, body.rx-research { padding-bottom: 0; }
   font-family: var(--rx-serif);
   color: var(--rx-ink);
   font-weight: 600;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.005em;
   line-height: 1.2;
 }
 
 .rx-page a { color: var(--rx-accent); text-decoration: none; }
 .rx-page a:hover { color: var(--rx-accent-strong); text-decoration: underline; }
 .rx-page ::selection { background: var(--rx-accent-soft); }
+
+/* Inline SVG flag: emoji flags don't render on Windows. */
+.rx-flag { height: 0.78em; width: auto; vertical-align: -0.06em; border-radius: 2px; }
 
 .rx-wrap { max-width: var(--rx-maxw); margin: 0 auto; padding: 0 20px; }
 .rx-readable { max-width: var(--rx-readw); }
@@ -318,11 +324,14 @@ body.rx-home, body.rx-research { padding-bottom: 0; }
 
 /* -------- News timeline -------------------------------------------------- */
 .rx-timeline { position: relative; margin: 0; padding: 0 0 0 4px; }
-.rx-news-item { display: grid; grid-template-columns: 118px 1fr; gap: 18px; padding: 12px 0; border-top: 1px solid var(--rx-border); }
+.rx-news-item { display: grid; grid-template-columns: 124px 1fr; gap: 18px; padding: 12px 0; border-top: 1px solid var(--rx-border); }
 .rx-news-item:first-child { border-top: 0; }
 .rx-news-date { color: var(--rx-muted); font-size: 0.82rem; font-weight: 600; padding-top: 2px; white-space: nowrap; }
 .rx-news-body { color: var(--rx-ink-soft); font-size: 0.95rem; }
 .rx-news-body strong { color: var(--rx-ink); }
+.rx-news-body ul { margin: 4px 0 0; padding-left: 18px; }
+.rx-news-body li { margin: 0 0 5px; }
+.rx-news-body li:last-child { margin-bottom: 0; }
 
 /* -------- Awards / experience / service --------------------------------- */
 .rx-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
@@ -374,7 +383,7 @@ body.rx-home, body.rx-research { padding-bottom: 0; }
   .rx-cards { grid-template-columns: 1fr; }
   .rx-two-col { grid-template-columns: 1fr; gap: 26px; }
   .rx-pub { grid-template-columns: 64px 1fr; gap: 12px; }
-  .rx-news-item { grid-template-columns: 96px 1fr; gap: 12px; }
+  .rx-news-item { grid-template-columns: 112px 1fr; gap: 12px; }
 }
 
 @media (max-width: 520px) {
