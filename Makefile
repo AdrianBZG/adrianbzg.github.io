@@ -1,58 +1,32 @@
 # ---------------------------------------------------------------------------
-# Makefile for the al-folio site published at https://bazaga.ai
+# Makefile for the static site published at https://bazaga.ai
 #
-# Typical workflow:
-#   make install   # one-time: install Ruby gem dependencies
-#   make serve     # local preview with live reload
-#   make deploy    # build and publish to bazaga.ai (gh-pages branch)
+# The site is plain static HTML served by GitHub Pages from the `gh-pages`
+# branch. Day-to-day work happens on `master`; `make deploy` mirrors master
+# to gh-pages, which updates the live site.
 #
-# Run `make` or `make help` to list all available targets.
+# Workflow:
+#   1. edit files and commit on `master`
+#   2. make deploy      # push master, then publish it to the live site
+#
+# Run `make` or `make help` to list targets.
 # ---------------------------------------------------------------------------
 
-# Jekyll runs through Bundler so the versions from the Gemfile are used.
-BUNDLE        := bundle
-JEKYLL        := $(BUNDLE) exec jekyll
-SITE_DIR      := _site
 SRC_BRANCH    := master
 DEPLOY_BRANCH := gh-pages
 PREVIEW_PORT  := 4000
 
 .DEFAULT_GOAL := help
-.PHONY: help install build compile serve serve-drafts preview clean doctor update deploy publish
+.PHONY: help preview deploy
 
 help: ## Show this help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) \
 		| sort \
-		| awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-14s\033[0m %s\n", $$1, $$2}'
+		| awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-9s\033[0m %s\n", $$1, $$2}'
 
-install: ## Install Ruby gem dependencies (bundle install)
-	$(BUNDLE) install
-
-build: ## Compile the static site into _site/
-	$(JEKYLL) build
-
-compile: build ## Alias for `build`
-
-serve: ## Preview locally with live reload at http://localhost:4000
-	$(JEKYLL) serve --livereload
-
-serve-drafts: ## Like `serve`, but also render draft posts
-	$(JEKYLL) serve --livereload --drafts
-
-preview: ## Preview the pre-built static site (no Jekyll) at http://localhost:4000
+preview: ## Serve the site locally at http://127.0.0.1:4000
 	python3 -m http.server $(PREVIEW_PORT) --bind 127.0.0.1
 
-clean: ## Remove the generated site and Jekyll caches
-	rm -rf $(SITE_DIR) .jekyll-cache .jekyll-metadata
-
-doctor: ## Check the site for common configuration issues
-	$(JEKYLL) doctor
-
-update: ## Update gems to the latest versions allowed by the Gemfile
-	$(BUNDLE) update
-
-deploy: ## Build and deploy to bazaga.ai (force-push to gh-pages)
-	./bin/deploy --src $(SRC_BRANCH) --deploy $(DEPLOY_BRANCH)
-
-publish: ## Push master to trigger the GitHub Actions deploy
+deploy: ## Publish master to gh-pages (updates the live site at bazaga.ai)
 	git push origin $(SRC_BRANCH)
+	git push --force origin $(SRC_BRANCH):$(DEPLOY_BRANCH)
