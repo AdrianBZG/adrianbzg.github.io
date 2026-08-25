@@ -15,9 +15,10 @@ JEKYLL        := $(BUNDLE) exec jekyll
 SITE_DIR      := _site
 SRC_BRANCH    := master
 DEPLOY_BRANCH := gh-pages
+PREVIEW_PORT  := 4000
 
 .DEFAULT_GOAL := help
-.PHONY: help install build compile serve serve-drafts clean doctor update deploy publish
+.PHONY: help install build compile serve serve-drafts preview clean doctor update deploy publish
 
 help: ## Show this help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) \
@@ -37,6 +38,9 @@ serve: ## Preview locally with live reload at http://localhost:4000
 
 serve-drafts: ## Like `serve`, but also render draft posts
 	$(JEKYLL) serve --livereload --drafts
+
+preview: ## Preview the pre-built static site (no Jekyll) at http://localhost:4000
+	python3 -m http.server $(PREVIEW_PORT) --bind 127.0.0.1
 
 clean: ## Remove the generated site and Jekyll caches
 	rm -rf $(SITE_DIR) .jekyll-cache .jekyll-metadata

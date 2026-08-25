@@ -1,0 +1,42 @@
+[
+  {
+    "date": "Jun 2, 2026",
+    "body": "<strong>Aion Instruct</strong>, Microsoft\u2019s foundational language model for Windows, was unveiled by Satya Nadella at <a href='https://www.youtube.com/live/FFMm454fxNA?t=268s' target='_blank' rel='noopener noreferrer'>Microsoft Build 2026</a>. I lead its post-training, now shipping on Windows devices."
+  },
+  {
+    "date": "Sep 1, 2025",
+    "body": "Promoted to <strong>Senior Research Scientist</strong> at Microsoft, co-leading a group developing state-of-the-art Small Language Models, from pre-training to post-training and on-device deployment."
+  },
+  {
+    "date": "Jun 23, 2025",
+    "body": "We launched <a href='https://blogs.windows.com/windowsexperience/2025/06/23/introducing-mu-language-model-and-how-it-enabled-the-agent-in-windows-settings/' target='_blank' rel='noopener noreferrer'><strong>Mu</strong></a>, our 0.3B micro-size language model, built for blazing-fast on-device inference."
+  },
+  {
+    "date": "Jun 1, 2025",
+    "body": "Our paper <em>\u201c<a href='https://arxiv.org/abs/2504.05258' target='_blank' rel='noopener noreferrer'>Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models</a>\u201d</em> was accepted at <strong>ACL 2025</strong> (Main)."
+  },
+  {
+    "date": "Jan 3, 2025",
+    "body": "Joined <strong>Microsoft</strong> as an AI Research Scientist in London, working on on-device LLM experiences for millions of users worldwide."
+  },
+  {
+    "date": "Sep 20, 2024",
+    "body": "Our paper <em>\u201c<a href='https://arxiv.org/abs/2402.07309' target='_blank' rel='noopener noreferrer'>HyperBERT</a>\u201d</em> was accepted at <strong>EMNLP 2024</strong>."
+  },
+  {
+    "date": "Aug 15, 2024",
+    "body": "Joined the <strong>Amazon Science (AGI)</strong> team as a Research Scientist Intern, working on test-time scaling for temporal reasoning with LLMs in Berlin."
+  },
+  {
+    "date": "Aug 13, 2024",
+    "body": "Joined the reviewer committee for ICLR and ACL."
+  },
+  {
+    "date": "Jun 16, 2024",
+    "body": "Our paper <em>FLUID-LLM: Learning Computational Fluid Dynamics with Spatiotemporal-aware Large Language Models</em> is now on <a href='https://arxiv.org/abs/2406.04501' target='_blank' rel='noopener noreferrer'>arXiv</a>."
+  },
+  {
+    "date": "Jun 5, 2024",
+    "body": "Our paper <a href='https://arxiv.org/abs/2406.01805' target='_blank' rel='noopener noreferrer'><em>TabMDA: Tabular Manifold Data Augmentation for Any Classifier using Transformers with In-context Subsetting</em></a> was accepted at <strong>ICML 2024</strong>."
+  }
+]
