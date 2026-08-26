@@ -20,12 +20,11 @@ index.html                 # homepage
 research/index.html        # full publications list
 404.html                   # error page
 CNAME                      # custom domain (bazaga.ai)
-sitemap.xml, robots.txt, feed.xml
+sitemap.xml, robots.txt, llms.txt
 assets/
   css/redesign.css         # site design system (layered over main.css)
-  js/                      # theme.js + dark_mode.js (themes), news.js, common.js
-  data/news.json           # news items rendered on the homepage
-  img/                     # photo, paper figures, product images
+  js/                      # theme.js + dark_mode.js (themes), common.js
+  img/                     # photo, paper figures, product images, og-card.png
   files/thesis.pdf         # PhD thesis
 ```
 
@@ -42,7 +41,9 @@ make preview            # serves at http://127.0.0.1:4000
 
 - **Content / layout** — edit `index.html` and `research/index.html` directly.
 - **Styling** — edit [`assets/css/redesign.css`](assets/css/redesign.css).
-- **News** — add an entry to [`assets/data/news.json`](assets/data/news.json); it renders automatically, no HTML changes needed.
+- **News** — add a `.rx-news-item` block at the top of the `#rx-news` timeline in `index.html`. It is static HTML so that crawlers and link previews can read it.
+- **SEO** — each page carries its own `<title>`, meta description, Open Graph/Twitter tags and JSON-LD. Update the JSON-LD `Person` block in `index.html` when your role changes, and add new papers to the `ItemList` in `research/index.html`.
+- **Social card** — `assets/img/og-card.png` (1200×630) is referenced by every page's `og:image`.
 
 ## Deployment
 

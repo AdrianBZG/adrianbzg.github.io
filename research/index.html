@@ -1,4 +1,284 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Adrián Bazaga's Homepage | Research</title> <meta name="author" content=" "/> <meta name="description" content="Adrián Bazaga's Homepage. "/> <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous"/> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap"> <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css"/> <link rel="icon" href="/assets/img/favicon_a.ico"> <link rel="stylesheet" href="/assets/css/main.css"> <link rel="stylesheet" href="/assets/css/redesign.css"> <link rel="canonical" href="https://bazaga.ai/research/"> <script src="/assets/js/theme.js"></script> <script src="/assets/js/dark_mode.js"></script> </head> <body class="fixed-top-nav rx-page rx-research">
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Publications — Adrián Bazaga | LLM, ML &amp; AI Research</title>
+<meta name="author" content="Adrián Bazaga"/>
+<meta name="description" content="Publications by Adrián Bazaga on large language models, post-training, NLP, graph deep learning and ML for science — ICLR, ICML, ACL, EMNLP and Nature journals."/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Adrián Bazaga"/>
+<meta property="og:locale" content="en_GB"/>
+<meta property="og:url" content="https://bazaga.ai/research/"/>
+<meta property="og:title" content="Publications — Adrián Bazaga | LLM, ML &amp; AI Research"/>
+<meta property="og:description" content="Peer-reviewed research on large language models, post-training, NLP, graph deep learning and machine learning for science. ICLR, ICML, ACL, EMNLP and Nature."/>
+<meta property="og:image" content="https://bazaga.ai/assets/img/og-card.png"/>
+<meta property="og:image:type" content="image/png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:alt" content="Adrián Bazaga — Senior Research Scientist and Post-Training Lead at Microsoft"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Publications — Adrián Bazaga | LLM, ML &amp; AI Research"/>
+<meta name="twitter:description" content="Peer-reviewed research on large language models, post-training, NLP, graph deep learning and machine learning for science. ICLR, ICML, ACL, EMNLP and Nature."/>
+<meta name="twitter:image" content="https://bazaga.ai/assets/img/og-card.png"/>
+<meta name="twitter:image:alt" content="Adrián Bazaga — Senior Research Scientist and Post-Training Lead at Microsoft"/>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous"/> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap"> <link rel="icon" href="/assets/img/favicon_a.ico">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff"/>
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0e1116"/>
+<link rel="stylesheet" href="/assets/css/main.css"> <link rel="stylesheet" href="/assets/css/redesign.css"> <link rel="canonical" href="https://bazaga.ai/research/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://bazaga.ai/#person",
+      "name": "Adrián Bazaga",
+      "alternateName": ["Adrian Bazaga", "A. Bazaga"],
+      "url": "https://bazaga.ai/",
+      "jobTitle": "Senior Research Scientist",
+      "worksFor": { "@type": "Organization", "name": "Microsoft" },
+      "sameAs": [
+        "https://scholar.google.com/citations?user=lrOLKgQAAAAJ",
+        "https://github.com/AdrianBZG",
+        "https://www.linkedin.com/in/adrianbazaga/",
+        "https://www.microsoft.com/applied-sciences/people/adrian-bazaga"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://bazaga.ai/research/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bazaga.ai/" },
+        { "@type": "ListItem", "position": 2, "name": "Publications", "item": "https://bazaga.ai/research/" }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://bazaga.ai/research/#webpage",
+      "url": "https://bazaga.ai/research/",
+      "name": "Publications — Adrián Bazaga",
+      "description": "Peer-reviewed publications by Adrián Bazaga on large language models, post-training, natural language processing, graph deep learning and machine learning for science.",
+      "inLanguage": "en-GB",
+      "about": { "@id": "https://bazaga.ai/#person" },
+      "breadcrumb": { "@id": "https://bazaga.ai/research/#breadcrumb" },
+      "mainEntity": { "@id": "https://bazaga.ai/research/#publications" }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://bazaga.ai/research/#publications",
+      "name": "Publications by Adrián Bazaga",
+      "numberOfItems": 17,
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "On the Necessity of Learnable Sheaf Laplacians",
+          "datePublished": "2026",
+          "url": "https://arxiv.org/abs/2603.05395",
+          "author": [
+            { "@type": "Person", "name": "F. H. Caralt" },
+            { "@type": "Person", "name": "M. Gonzàlez i Català" },
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Pietro Liò" }
+          ],
+          "isPartOf": { "@type": "CreativeWork", "name": "International Conference on Learning Representations (ICLR)" }
+        }},
+        { "@type": "ListItem", "position": 2, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models",
+          "datePublished": "2025",
+          "url": "https://arxiv.org/abs/2504.05258",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Rexhina Blloshmi" },
+            { "@type": "Person", "name": "Bill Byrne" },
+            { "@type": "Person", "name": "Adrià de Gispert" }
+          ],
+          "isPartOf": { "@type": "CreativeWork", "name": "Association for Computational Linguistics (ACL)" }
+        }},
+        { "@type": "ListItem", "position": 3, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Unsupervised Pretraining for Fact Verification by Language Model Distillation",
+          "datePublished": "2024",
+          "url": "https://arxiv.org/abs/2309.16540",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Pietro Liò" },
+            { "@type": "Person", "name": "Gos Micklem" }
+          ],
+          "isPartOf": { "@type": "CreativeWork", "name": "International Conference on Learning Representations (ICLR)" }
+        }},
+        { "@type": "ListItem", "position": 4, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "HyperBERT: Mixing Hypergraph-Aware Layers with Language Models for Node Classification on Text-Attributed Graphs",
+          "datePublished": "2024",
+          "url": "https://arxiv.org/abs/2402.07309",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Pietro Liò" },
+            { "@type": "Person", "name": "Gos Micklem" }
+          ],
+          "isPartOf": { "@type": "CreativeWork", "name": "Empirical Methods in Natural Language Processing (EMNLP)" }
+        }},
+        { "@type": "ListItem", "position": 5, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "TabMDA: Tabular Manifold Data Augmentation for Any Classifier using Transformers with In-context Subsetting",
+          "datePublished": "2024",
+          "url": "https://arxiv.org/abs/2406.01805",
+          "author": [
+            { "@type": "Person", "name": "Andrei Margeloiu" },
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Nikola Simidjievski" },
+            { "@type": "Person", "name": "Pietro Liò" },
+            { "@type": "Person", "name": "Mateja Jamnik" }
+          ],
+          "isPartOf": { "@type": "CreativeWork", "name": "International Conference on Machine Learning (ICML)" }
+        }},
+        { "@type": "ListItem", "position": 6, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "FLUID-LLM: Learning Computational Fluid Dynamics with Spatiotemporal-aware Large Language Models",
+          "datePublished": "2024",
+          "url": "https://arxiv.org/abs/2406.04501",
+          "author": [
+            { "@type": "Person", "name": "Max Zhu" },
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Pietro Liò" }
+          ],
+          "isPartOf": { "@type": "CreativeWork", "name": "arXiv preprint" }
+        }},
+        { "@type": "ListItem", "position": 7, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Knowledge Distillation of RoBERTa Language Model for Efficient Question Answering in Spanish",
+          "datePublished": "2024",
+          "url": "https://arxiv.org/abs/2312.04193",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Pietro Liò" },
+            { "@type": "Person", "name": "Gos Micklem" }
+          ],
+          "isPartOf": { "@type": "CreativeWork", "name": "International Conference on Learning Representations (ICLR) Workshop" }
+        }},
+        { "@type": "ListItem", "position": 8, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "SQLformer: Deep Auto-Regressive Query Graph Generation for Text-to-SQL Translation",
+          "datePublished": "2023",
+          "url": "https://arxiv.org/abs/2310.18376",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Pietro Liò" },
+            { "@type": "Person", "name": "Gos Micklem" }
+          ],
+          "isPartOf": { "@type": "CreativeWork", "name": "arXiv preprint" }
+        }},
+        { "@type": "ListItem", "position": 9, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Multi-site validation of a deep learning solution for HER2 profiling of breast cancer from H&E-stained pathology slides",
+          "datePublished": "2023",
+          "author": [
+            { "@type": "Person", "name": "S. Arslan" },
+            { "@type": "Person", "name": "P. Pandya" },
+            { "@type": "Person", "name": "F. Ntelemis" },
+            { "@id": "https://bazaga.ai/#person" }
+          ],
+          "isPartOf": { "@type": "Periodical", "name": "Annals of Oncology" }
+        }},
+        { "@type": "ListItem", "position": 10, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "HumanMine: advanced data searching, analysis and cross-species comparison",
+          "datePublished": "2022",
+          "author": [
+            { "@type": "Person", "name": "Rachel Lyne" },
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Daniela Butano" },
+            { "@type": "Person", "name": "Sergio Contrino" }
+          ],
+          "isPartOf": { "@type": "Periodical", "name": "Database (Oxford)" }
+        }},
+        { "@type": "ListItem", "position": 11, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Translating synthetic natural language to database queries with a polyglot deep learning framework",
+          "datePublished": "2021",
+          "url": "https://arxiv.org/abs/2104.07010",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Nupur Gunwant" },
+            { "@type": "Person", "name": "Gos Micklem" }
+          ],
+          "isPartOf": { "@type": "Periodical", "name": "Scientific Reports" }
+        }},
+        { "@type": "ListItem", "position": 12, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Genome-wide investigation of gene–cancer associations for the prediction of novel therapeutic targets in oncology",
+          "datePublished": "2020",
+          "url": "https://www.nature.com/articles/s41598-020-67846-1",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Dan Leggate" },
+            { "@type": "Person", "name": "Hendrik Weisser" }
+          ],
+          "isPartOf": { "@type": "Periodical", "name": "Scientific Reports" }
+        }},
+        { "@type": "ListItem", "position": 13, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "A Convolutional Neural Network for the Automatic Diagnosis of Collagen VI related Muscular Dystrophies",
+          "datePublished": "2019",
+          "url": "https://arxiv.org/abs/1901.11074",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Mònica Roldán" },
+            { "@type": "Person", "name": "Carmen Badosa" },
+            { "@type": "Person", "name": "Cecilia Jiménez-Mallebrera" },
+            { "@type": "Person", "name": "Josep M. Porta" }
+          ],
+          "isPartOf": { "@type": "Periodical", "name": "Applied Soft Computing" }
+        }},
+        { "@type": "ListItem", "position": 14, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Network Community Cluster-Based Analysis for the Identification of Potential Leukemia Drug Targets",
+          "datePublished": "2019",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Alfredo Vellido" }
+          ],
+          "isPartOf": { "@type": "CreativeWork", "name": "International Workshop on Self-Organizing Maps (WSOM)" }
+        }},
+        { "@type": "ListItem", "position": 15, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Automated diagnosis of collagen VI related muscular dystrophies using advanced image analysis and machine learning",
+          "datePublished": "2019",
+          "author": [
+            { "@type": "Person", "name": "Mónica Roldán" },
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Carmen Badosa" },
+            { "@type": "Person", "name": "Josep M. Porta" },
+            { "@type": "Person", "name": "Cecilia Jiménez-Mallebrera" }
+          ],
+          "isPartOf": { "@type": "Periodical", "name": "Neuromuscular Disorders" }
+        }},
+        { "@type": "ListItem", "position": 16, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Performance Evaluation of an Algorithm-based Asynchronous Checkpoint-Restart Fault Tolerant Application Using Mixed MPI/GPI-2",
+          "datePublished": "2018",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Michal Pitoňák" }
+          ],
+          "isPartOf": { "@type": "CreativeWork", "name": "arXiv preprint" }
+        }},
+        { "@type": "ListItem", "position": 17, "item": {
+          "@type": "ScholarlyArticle",
+          "name": "BIOLITMAP: a web-based geolocated, temporal and thematic visualization of the evolution of bioinformatics publications",
+          "datePublished": "2018",
+          "author": [
+            { "@id": "https://bazaga.ai/#person" },
+            { "@type": "Person", "name": "Alfonso Valencia" },
+            { "@type": "Person", "name": "María J. Rementería" }
+          ],
+          "isPartOf": { "@type": "Periodical", "name": "Bioinformatics" }
+        }}
+      ]
+    }
+  ]
+}
+</script>
+<script src="/assets/js/theme.js"></script> <script src="/assets/js/dark_mode.js"></script> </head> <body class="fixed-top-nav rx-page rx-research">
 
   <header>
     <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top">
@@ -31,7 +311,7 @@
   <section class="rx-section" id="publications" style="border-top:0;padding-top:8px">
     <div class="rx-wrap">
       <div class="rx-pub-list">
-        <h3 class="rx-year-head">2026</h3>
+        <h2 class="rx-year-head">2026</h2>
         <div class="rx-pub" data-category="geometric">
           <div class="rx-pub-venue"><span class="rx-badge">ICLR</span><span class="rx-pub-year">2026</span></div>
           <div>
@@ -42,7 +322,7 @@
           </div>
         </div>
 
-        <h3 class="rx-year-head">2025</h3>
+        <h2 class="rx-year-head">2025</h2>
         <div class="rx-pub" data-category="reasoning">
           <div class="rx-pub-venue"><span class="rx-badge">ACL</span><span class="rx-pub-year">2025</span></div>
           <div>
@@ -53,7 +333,7 @@
           </div>
         </div>
 
-        <h3 class="rx-year-head">2024</h3>
+        <h2 class="rx-year-head">2024</h2>
         <div class="rx-pub" data-category="post-training">
           <div class="rx-pub-venue"><span class="rx-badge">ICLR</span><span class="rx-pub-year">2024</span></div>
           <div>
@@ -100,7 +380,7 @@
           </div>
         </div>
 
-        <h3 class="rx-year-head">2023</h3>
+        <h2 class="rx-year-head">2023</h2>
         <div class="rx-pub" data-category="structured">
           <div class="rx-pub-venue"><span class="rx-badge">arXiv</span><span class="rx-pub-year">2023</span></div>
           <div>
@@ -119,7 +399,7 @@
           </div>
         </div>
 
-        <h3 class="rx-year-head">2022</h3>
+        <h2 class="rx-year-head">2022</h2>
         <div class="rx-pub" data-category="science">
           <div class="rx-pub-venue"><span class="rx-badge">Database</span><span class="rx-pub-year">2022</span></div>
           <div>
@@ -129,7 +409,7 @@
           </div>
         </div>
 
-        <h3 class="rx-year-head">2021</h3>
+        <h2 class="rx-year-head">2021</h2>
         <div class="rx-pub" data-category="structured">
           <div class="rx-pub-venue"><span class="rx-badge">Nat. Sci. Rep.</span><span class="rx-pub-year">2021</span></div>
           <div>
@@ -140,7 +420,7 @@
           </div>
         </div>
 
-        <h3 class="rx-year-head">2020</h3>
+        <h2 class="rx-year-head">2020</h2>
         <div class="rx-pub" data-category="science">
           <div class="rx-pub-venue"><span class="rx-badge">Nat. Sci. Rep.</span><span class="rx-pub-year">2020</span></div>
           <div>
@@ -151,7 +431,7 @@
           </div>
         </div>
 
-        <h3 class="rx-year-head">2019</h3>
+        <h2 class="rx-year-head">2019</h2>
         <div class="rx-pub" data-category="science">
           <div class="rx-pub-venue"><span class="rx-badge">ASC</span><span class="rx-pub-year">2019</span></div>
           <div>
@@ -178,7 +458,7 @@
           </div>
         </div>
 
-        <h3 class="rx-year-head">2018</h3>
+        <h2 class="rx-year-head">2018</h2>
         <div class="rx-pub" data-category="other">
           <div class="rx-pub-venue"><span class="rx-badge">arXiv</span><span class="rx-pub-year">2018</span></div>
           <div>
@@ -211,18 +491,14 @@
     </div>
   </footer>
 
-  </body> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script> <script type="text/javascript">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script> <script type="text/javascript">
   $(function () {$('[data-toggle="tooltip"]').tooltip()})
-  </script> <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script> <script src="/assets/js/zoom.js"></script> <script src="/assets/js/common.js"></script> <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams'
-      }
-    };
-  </script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDZ33Y0K4J"></script> <script>
+  </script> <script src="/assets/js/common.js"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDZ33Y0K4J"></script> <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-SDZ33Y0K4J');
-</script> </html>
+</script>
+</body>
+</html>

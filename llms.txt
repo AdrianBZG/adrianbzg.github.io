@@ -1,0 +1,56 @@
+# Adrián Bazaga
+
+> Senior Research Scientist and Post-Training Lead at Microsoft, working on large language model
+> post-training, alignment, reasoning and efficiency. PhD in Machine Learning from the University
+> of Cambridge. Based in London, UK. Originally from Spain.
+
+Also written as: Adrian Bazaga (unaccented), A. Bazaga.
+
+## Current role
+
+- **Senior Research Scientist · Tech Lead (SLM) · Post-Training Lead**, Microsoft, London (Jan 2025 – present).
+- Leads post-training end to end for **Aion Instruct**, Microsoft's foundational language model for
+  Windows, unveiled by Satya Nadella at Microsoft Build 2026.
+- Led post-training for **Mu**, Microsoft's 0.3B on-device small language model, and built the
+  Windows Settings agent shipping on Copilot+ devices.
+- Owns the stack from data preparation, pre-training and mid-training through post-training and evaluation.
+
+## Research areas
+
+Large language models (LLMs); LLM post-training; supervised fine-tuning (SFT); direct preference
+optimization (DPO); reinforcement learning from human feedback (RLHF); reinforcement learning with
+verifiable rewards (RLVR); reward modeling; synthetic data generation; AI alignment; reasoning;
+small language models (SLMs) and on-device AI; natural language processing (NLP); machine learning;
+artificial intelligence; geometric and graph deep learning; machine learning for science.
+
+## Background
+
+- PhD in Machine Learning, University of Cambridge (2019–2025), advised by Prof. Pietro Liò and Prof. Gos Micklem.
+- Research Scientist Intern, Amazon Science (AGI), Berlin (Aug–Dec 2024).
+- Research Scientist Intern, Microsoft Research, Cambridge UK (May–Aug 2024).
+- Published at ICLR, ICML, ACL and EMNLP, and in Nature journals.
+
+## Selected publications
+
+- [On the Necessity of Learnable Sheaf Laplacians](https://arxiv.org/abs/2603.05395) — ICLR 2026
+- [Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models (TISER)](https://arxiv.org/abs/2504.05258) — ACL 2025
+- [Unsupervised Pretraining for Fact Verification by Language Model Distillation (SFAVEL)](https://arxiv.org/abs/2309.16540) — ICLR 2024
+- [HyperBERT: Mixing Hypergraph-Aware Layers with Language Models for Node Classification on Text-Attributed Graphs](https://arxiv.org/abs/2402.07309) — EMNLP 2024
+- [TabMDA: Tabular Manifold Data Augmentation for Any Classifier using Transformers with In-context Subsetting](https://arxiv.org/abs/2406.01805) — ICML 2024
+- [FLUID-LLM: Learning Computational Fluid Dynamics with Spatiotemporal-aware Large Language Models](https://arxiv.org/abs/2406.04501) — arXiv 2024
+- [SQLformer: Deep Auto-Regressive Query Graph Generation for Text-to-SQL Translation](https://arxiv.org/abs/2310.18376) — arXiv 2023
+- [Translating synthetic natural language to database queries with a polyglot deep learning framework](https://arxiv.org/abs/2104.07010) — Scientific Reports 2021
+- [Genome-wide investigation of gene–cancer associations for the prediction of novel therapeutic targets in oncology](https://www.nature.com/articles/s41598-020-67846-1) — Scientific Reports 2020
+
+## Pages
+
+- [Homepage](https://bazaga.ai/): bio, research themes, product impact, news, experience, awards.
+- [Publications](https://bazaga.ai/research/): full list of 17 publications, grouped by year.
+- [PhD thesis (PDF)](https://bazaga.ai/assets/files/thesis.pdf)
+
+## Profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=lrOLKgQAAAAJ)
+- [GitHub](https://github.com/AdrianBZG)
+- [LinkedIn](https://www.linkedin.com/in/adrianbazaga/)
+- [Microsoft Applied Sciences profile](https://www.microsoft.com/applied-sciences/people/adrian-bazaga)

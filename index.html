@@ -1,4 +1,116 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Adrián Bazaga's Homepage</title> <meta name="author" content=" "/> <meta name="description" content="Adrián Bazaga's Homepage. "/> <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous"/> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap"> <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css"/> <link rel="icon" href="/assets/img/favicon_a.ico"> <link rel="stylesheet" href="/assets/css/main.css"> <link rel="stylesheet" href="/assets/css/redesign.css"> <link rel="canonical" href="https://bazaga.ai/"> <script src="/assets/js/theme.js"></script> <script src="/assets/js/dark_mode.js"></script> </head> <body class="fixed-top-nav rx-page rx-home">
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Adrián Bazaga — LLM Post-Training &amp; AI Research, Microsoft</title>
+<meta name="author" content="Adrián Bazaga"/>
+<meta name="description" content="Adrián Bazaga — Senior Research Scientist at Microsoft, leading LLM post-training for Aion Instruct and Mu. PhD in ML from Cambridge. RLHF, alignment, reasoning."/>
+<meta property="og:type" content="profile"/>
+<meta property="og:site_name" content="Adrián Bazaga"/>
+<meta property="og:locale" content="en_GB"/>
+<meta property="og:url" content="https://bazaga.ai/"/>
+<meta property="og:title" content="Adrián Bazaga — LLM Post-Training &amp; AI Research, Microsoft"/>
+<meta property="og:description" content="Senior Research Scientist at Microsoft, leading LLM post-training for Aion Instruct and Mu. PhD in Machine Learning from the University of Cambridge."/>
+<meta property="og:image" content="https://bazaga.ai/assets/img/og-card.png"/>
+<meta property="og:image:type" content="image/png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:alt" content="Adrián Bazaga — Senior Research Scientist and Post-Training Lead at Microsoft"/>
+<meta property="profile:first_name" content="Adrián"/>
+<meta property="profile:last_name" content="Bazaga"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Adrián Bazaga — LLM Post-Training &amp; AI Research, Microsoft"/>
+<meta name="twitter:description" content="Senior Research Scientist at Microsoft, leading LLM post-training for Aion Instruct and Mu. PhD in Machine Learning from the University of Cambridge."/>
+<meta name="twitter:image" content="https://bazaga.ai/assets/img/og-card.png"/>
+<meta name="twitter:image:alt" content="Adrián Bazaga — Senior Research Scientist and Post-Training Lead at Microsoft"/>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous"/> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap"> <link rel="icon" href="/assets/img/favicon_a.ico">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff"/>
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0e1116"/>
+<link rel="stylesheet" href="/assets/css/main.css"> <link rel="stylesheet" href="/assets/css/redesign.css"> <link rel="canonical" href="https://bazaga.ai/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://bazaga.ai/#person",
+      "name": "Adrián Bazaga",
+      "alternateName": ["Adrian Bazaga", "A. Bazaga"],
+      "givenName": "Adrián",
+      "familyName": "Bazaga",
+      "url": "https://bazaga.ai/",
+      "image": "https://bazaga.ai/assets/img/og-card.png",
+      "jobTitle": "Senior Research Scientist",
+      "description": "Senior Research Scientist and Post-Training Lead at Microsoft, working on large language model post-training, alignment and reasoning. PhD in Machine Learning from the University of Cambridge.",
+      "knowsAbout": [
+        "Large language models",
+        "LLM post-training",
+        "Reinforcement learning from human feedback (RLHF)",
+        "Direct preference optimization (DPO)",
+        "Reinforcement learning with verifiable rewards (RLVR)",
+        "Supervised fine-tuning",
+        "Synthetic data generation",
+        "Reward modeling",
+        "AI alignment",
+        "Reasoning in language models",
+        "Small language models",
+        "On-device AI",
+        "Natural language processing",
+        "Machine learning",
+        "Artificial intelligence",
+        "Geometric deep learning",
+        "Graph neural networks",
+        "Machine learning for science"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com/"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Cambridge",
+        "url": "https://www.cam.ac.uk/"
+      },
+      "workLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "London",
+          "addressCountry": "GB"
+        }
+      },
+      "nationality": {
+        "@type": "Country",
+        "name": "Spain"
+      },
+      "sameAs": [
+        "https://scholar.google.com/citations?user=lrOLKgQAAAAJ",
+        "https://github.com/AdrianBZG",
+        "https://www.linkedin.com/in/adrianbazaga/",
+        "https://www.microsoft.com/applied-sciences/people/adrian-bazaga"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://bazaga.ai/#website",
+      "url": "https://bazaga.ai/",
+      "name": "Adrián Bazaga",
+      "inLanguage": "en-GB",
+      "publisher": { "@id": "https://bazaga.ai/#person" }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://bazaga.ai/#webpage",
+      "url": "https://bazaga.ai/",
+      "name": "Adrián Bazaga — LLM Post-Training & AI Research, Microsoft",
+      "isPartOf": { "@id": "https://bazaga.ai/#website" },
+      "about": { "@id": "https://bazaga.ai/#person" },
+      "mainEntity": { "@id": "https://bazaga.ai/#person" },
+      "primaryImageOfPage": "https://bazaga.ai/assets/img/og-card.png",
+      "inLanguage": "en-GB"
+    }
+  ]
+}
+</script>
+<script src="/assets/js/theme.js"></script> <script src="/assets/js/dark_mode.js"></script> </head> <body class="fixed-top-nav rx-page rx-home">
 
   <header>
     <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top">
@@ -24,7 +136,7 @@
     <div class="rx-wrap rx-hero-grid">
       <div class="rx-hero-text">
         <h1>Adrián Bazaga</h1>
-        <p class="rx-hero-role">Senior Researcher · Tech Lead (SLM) · <strong>Post-Training Lead</strong></p>
+        <p class="rx-hero-role">Senior Research Scientist · Tech Lead (SLM) · <strong>Post-Training Lead</strong></p>
         <p class="rx-hero-affil">Microsoft &nbsp;•&nbsp; PhD, University of Cambridge</p>
         <p class="rx-hero-tagline">I lead post-training for the language models that ship in Windows, spanning data, reinforcement learning, alignment, and evaluation.</p>
         <div class="rx-social">
@@ -35,7 +147,10 @@
         </div>
       </div>
       <div class="rx-hero-photo">
-        <img src="/assets/img/me.jpeg" alt="Adrián Bazaga" width="260" height="260">
+        <picture>
+          <source type="image/webp" sizes="260px" srcset="/assets/img/me-480.webp 480w, /assets/img/me-800.webp 800w, /assets/img/me-1400.webp 960w">
+          <img src="/assets/img/me.jpeg" alt="Adrián Bazaga, Senior Research Scientist and Post-Training Lead at Microsoft" width="260" height="260" fetchpriority="high" decoding="async">
+        </picture>
       </div>
     </div>
   </section>
@@ -44,10 +159,10 @@
     <div class="rx-wrap">
       <h2 class="rx-h">About me</h2>
       <div class="rx-readable">
-        <p class="rx-lead">I’m a Senior Researcher, Tech Lead (SLM) and Post-Training Lead at <a href="https://www.microsoft.com/applied-sciences/people/adrian-bazaga" target="_blank" rel="noopener noreferrer">Microsoft</a>. I teach language models to follow instructions, reason more reliably, and stay helpful and safe, and I’m broadly interested in how much capability can be packed into models small enough to run on your own device.</p>
+        <p class="rx-lead">I’m a Senior Research Scientist, Tech Lead (SLM) and Post-Training Lead at <a href="https://www.microsoft.com/applied-sciences/people/adrian-bazaga" target="_blank" rel="noopener noreferrer">Microsoft</a>, working on large language models (LLMs) and natural language processing (NLP). I teach language models to follow instructions, reason more reliably, and stay helpful and safe, and I’m broadly interested in how much capability can be packed into models small enough to run on your own device.</p>
         <p>I lead post-training for <strong>Aion Instruct</strong>, Microsoft’s foundational language model for Windows, <a href="https://www.youtube.com/live/FFMm454fxNA?t=268s" target="_blank" rel="noopener noreferrer">unveiled by Satya Nadella at Microsoft Build 2026</a>. I own the end-to-end stack from data preparation → pre-training → mid-training → post-training → evaluation, advancing state-of-the-art foundational language models at global scale. My post-training work spans supervised fine-tuning (SFT), synthetic data generation, direct preference optimization (DPO), reinforcement learning (RLVR and RLHF), and reward modeling, driving human alignment across response quality, conciseness, factuality, and safety.</p>
         <p>I also led post-training for <a href="https://blogs.windows.com/windowsexperience/2025/06/23/introducing-mu-language-model-and-how-it-enabled-the-agent-in-windows-settings/" target="_blank" rel="noopener noreferrer">Mu</a>, Microsoft’s blazing-fast on-device SLM, and built the <a href="https://blogs.windows.com/windowsexperience/2025/05/06/introducing-a-new-generation-of-windows-experiences/" target="_blank" rel="noopener noreferrer">Windows Settings agent</a>, now live on Copilot+ devices.</p>
-        <p>I hold a Ph.D. in Machine Learning from the <strong>University of Cambridge</strong>, advised by <a href="https://scholar.google.com/citations?user=4YhNJBEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Pietro Liò</a> and <a href="https://scholar.google.com/citations?user=ucG_41AAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Gos Micklem</a>, with work published at ICLR, ICML, ACL and EMNLP as well as in Nature journals. Previously I interned at Microsoft Research and Amazon AGI, and spent several years at the intersection of AI and biology across startups and research labs. Originally from <svg class="rx-flag" viewBox="0 0 6 4" role="img" aria-label="Spain"><rect width="6" height="4" fill="#AA151B"></rect><rect y="1" width="6" height="2" fill="#F1BF00"></rect></svg> Spain.</p>
+        <p>I hold a Ph.D. in Machine Learning from the <strong>University of Cambridge</strong>, advised by <a href="https://scholar.google.com/citations?user=4YhNJBEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Pietro Liò</a> and <a href="https://scholar.google.com/citations?user=ucG_41AAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Gos Micklem</a>, with work published at ICLR, ICML, ACL and EMNLP as well as in Nature journals. Previously I interned at Microsoft Research and Amazon AGI, and spent several years at the intersection of artificial intelligence (AI) and biology across startups and research labs. Originally from <svg class="rx-flag" viewBox="0 0 6 4" role="img" aria-label="Spain"><rect width="6" height="4" fill="#AA151B"></rect><rect y="1" width="6" height="2" fill="#F1BF00"></rect></svg> Spain.</p>
         <div class="rx-link-btns" style="margin-top:6px">
           <a class="rx-btn" href="/assets/files/thesis.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i> Read thesis (PDF)</a>
         </div>
@@ -168,11 +283,38 @@
     <div class="rx-wrap">
       <p class="rx-eyebrow">News</p>
       <h2 class="rx-h">Latest updates</h2>
-      <div class="rx-timeline" id="rx-news"></div>
+      <div class="rx-timeline" id="rx-news">
+        <div class="rx-news-item">
+          <div class="rx-news-date">June 2026</div>
+          <div class="rx-news-body"><strong>Aion Instruct</strong>, Microsoft’s foundational language model for Windows, is here.<ul><li>Unveiled by Satya Nadella at <a href='https://www.youtube.com/live/FFMm454fxNA?t=268s' target='_blank' rel='noopener noreferrer'>Microsoft Build 2026</a> and introduced on the <a href='https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/' target='_blank' rel='noopener noreferrer'>Windows Developer Blog</a>.</li><li>I lead its post-training end to end, spanning SFT, DPO, RLVR and RLHF, reward modeling, and synthetic data generation.</li><li>Now shipping on Windows devices.</li></ul></div>
+        </div>
+        <div class="rx-news-item">
+          <div class="rx-news-date">September 2025</div>
+          <div class="rx-news-body">Promoted to <strong>Senior Research Scientist</strong> at Microsoft, co-leading a group developing state-of-the-art Small Language Models, from pre-training to post-training and on-device deployment.</div>
+        </div>
+        <div class="rx-news-item">
+          <div class="rx-news-date">June 2025</div>
+          <div class="rx-news-body"><ul><li>We launched <a href='https://blogs.windows.com/windowsexperience/2025/06/23/introducing-mu-language-model-and-how-it-enabled-the-agent-in-windows-settings/' target='_blank' rel='noopener noreferrer'><strong>Mu</strong></a>, our 0.3B micro-size language model, built for blazing-fast on-device inference.</li><li>Our paper <em>“<a href='https://arxiv.org/abs/2504.05258' target='_blank' rel='noopener noreferrer'>Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models</a>”</em> was accepted at <strong>ACL 2025</strong> (Main).</li></ul></div>
+        </div>
+        <div class="rx-news-item">
+          <div class="rx-news-date">January 2025</div>
+          <div class="rx-news-body">Joined <strong>Microsoft</strong> as an AI Research Scientist in London, working on on-device LLM experiences for millions of users worldwide.</div>
+        </div>
+        <div class="rx-news-item">
+          <div class="rx-news-date">September 2024</div>
+          <div class="rx-news-body">Our paper <em>“<a href='https://arxiv.org/abs/2402.07309' target='_blank' rel='noopener noreferrer'>HyperBERT</a>”</em> was accepted at <strong>EMNLP 2024</strong>.</div>
+        </div>
+        <div class="rx-news-item">
+          <div class="rx-news-date">August 2024</div>
+          <div class="rx-news-body"><ul><li>Joined the <strong>Amazon Science (AGI)</strong> team as a Research Scientist Intern, working on test-time scaling for temporal reasoning with LLMs in Berlin.</li><li>Joined the reviewer committee for ICLR and ACL.</li></ul></div>
+        </div>
+        <div class="rx-news-item">
+          <div class="rx-news-date">June 2024</div>
+          <div class="rx-news-body"><ul><li>Our paper <em>FLUID-LLM: Learning Computational Fluid Dynamics with Spatiotemporal-aware Large Language Models</em> is now on <a href='https://arxiv.org/abs/2406.04501' target='_blank' rel='noopener noreferrer'>arXiv</a>.</li><li>Our paper <a href='https://arxiv.org/abs/2406.01805' target='_blank' rel='noopener noreferrer'><em>TabMDA: Tabular Manifold Data Augmentation for Any Classifier using Transformers with In-context Subsetting</em></a> was accepted at <strong>ICML 2024</strong>.</li></ul></div>
+        </div>
+      </div>
     </div>
   </section>
-
-  <script src="/assets/js/news.js"></script>
 
   <section class="rx-section" id="experience">
     <div class="rx-wrap">
@@ -181,7 +323,7 @@
       <div class="rx-two-col">
         <div class="rx-exp">
           <div class="rx-exp-item">
-            <div class="rx-exp-role">Senior Researcher, Post-Training Lead</div>
+            <div class="rx-exp-role">Senior Research Scientist, Post-Training Lead</div>
             <div class="rx-exp-meta"><span class="rx-exp-org">Microsoft</span> · Jan 2025 – Present · London, UK</div>
             <p>Lead post-training for Aion Instruct and Mu: SFT, DPO, RLVR, RLHF, reward modeling, and synthetic data generation, shipped to millions of Windows devices.</p>
           </div>
@@ -197,7 +339,7 @@
           </div>
         </div>
         <div>
-          <p class="rx-eyebrow">Education</p>
+          <h3 class="rx-eyebrow">Education</h3>
           <div class="rx-exp" style="margin-top:6px">
             <div class="rx-exp-item">
               <div class="rx-exp-role">Ph.D. in Machine Learning</div>
@@ -254,18 +396,14 @@
     </div>
   </footer>
 
-  </body> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script> <script type="text/javascript">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script> <script type="text/javascript">
   $(function () {$('[data-toggle="tooltip"]').tooltip()})
-  </script> <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script> <script src="/assets/js/zoom.js"></script> <script src="/assets/js/common.js"></script> <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams'
-      }
-    };
-  </script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDZ33Y0K4J"></script> <script>
+  </script> <script src="/assets/js/common.js"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDZ33Y0K4J"></script> <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-SDZ33Y0K4J');
-</script> </html>
+</script>
+</body>
+</html>
