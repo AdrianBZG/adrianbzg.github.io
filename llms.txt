@@ -1,25 +1,30 @@
 # Adrián Bazaga
 
-> Senior Research Scientist and Post-Training Lead at Microsoft, working on large language model
-> post-training, alignment, reasoning and efficiency. PhD in Machine Learning from the University
-> of Cambridge. Based in London, UK. Originally from Spain.
+> Senior Research Scientist and Post-Training Lead at Microsoft, leading mid-training and
+> post-training for the language models that ship in Windows: synthetic data generation,
+> reinforcement learning (RLHF and RLVR), reward modeling, agentic reasoning, alignment and
+> evaluation. PhD in Machine Learning from the University of Cambridge. Based in London, UK.
+> Originally from Spain.
 
 Also written as: Adrian Bazaga (unaccented), A. Bazaga.
 
 ## Current role
 
 - **Senior Research Scientist · Tech Lead (SLM) · Post-Training Lead**, Microsoft, London (Jan 2025 – present).
-- Leads post-training end to end for **Aion Instruct**, Microsoft's foundational language model for
-  Windows, unveiled by Satya Nadella at Microsoft Build 2026.
+- Leads mid-training and post-training end to end for **Aion Instruct**, Microsoft's foundational
+  language model for Windows, unveiled by Satya Nadella at Microsoft Build 2026. This spans
+  synthetic data generation, SFT, DPO, RLVR, RLHF, reward modeling and agentic reasoning.
 - Led post-training for **Mu**, Microsoft's 0.3B on-device small language model, and built the
   Windows Settings agent shipping on Copilot+ devices.
-- Owns the stack from data preparation, pre-training and mid-training through post-training and evaluation.
+- Owns the stack from data preparation, pre-training and mid-training through post-training,
+  agentic reasoning and evaluation.
 
 ## Research areas
 
-Large language models (LLMs); LLM post-training; supervised fine-tuning (SFT); direct preference
-optimization (DPO); reinforcement learning from human feedback (RLHF); reinforcement learning with
-verifiable rewards (RLVR); reward modeling; synthetic data generation; AI alignment; reasoning;
+Large language models (LLMs); LLM post-training; mid-training; supervised fine-tuning (SFT); direct
+preference optimization (DPO); reinforcement learning from human feedback (RLHF); reinforcement
+learning with verifiable rewards (RLVR); reward modeling; synthetic data generation; agentic
+reasoning and AI agents; AI alignment; reasoning; model evaluation;
 small language models (SLMs) and on-device AI; natural language processing (NLP); machine learning;
 artificial intelligence; geometric and graph deep learning; machine learning for science.
 

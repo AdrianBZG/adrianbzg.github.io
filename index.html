@@ -1,13 +1,13 @@
 <!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Adrián Bazaga — LLM Post-Training &amp; AI Research, Microsoft</title>
 <meta name="author" content="Adrián Bazaga"/>
-<meta name="description" content="Adrián Bazaga — Senior Research Scientist at Microsoft, leading LLM post-training for Aion Instruct and Mu. PhD in ML from Cambridge. RLHF, alignment, reasoning."/>
+<meta name="description" content="Adrián Bazaga — Senior Research Scientist at Microsoft, leading post-training for Aion Instruct: synthetic data, RLHF/RLVR, reward modeling, agentic reasoning."/>
 <meta property="og:type" content="profile"/>
 <meta property="og:site_name" content="Adrián Bazaga"/>
 <meta property="og:locale" content="en_GB"/>
 <meta property="og:url" content="https://bazaga.ai/"/>
 <meta property="og:title" content="Adrián Bazaga — LLM Post-Training &amp; AI Research, Microsoft"/>
-<meta property="og:description" content="Senior Research Scientist at Microsoft, leading LLM post-training for Aion Instruct and Mu. PhD in Machine Learning from the University of Cambridge."/>
-<meta property="og:image" content="https://bazaga.ai/assets/img/og-card-1200x630.png?v=1"/>
+<meta property="og:description" content="Senior Research Scientist at Microsoft, leading mid-training and post-training for Aion Instruct and Mu: synthetic data generation, RLHF &amp; RLVR, reward modeling, agentic reasoning and alignment."/>
+<meta property="og:image" content="https://bazaga.ai/assets/img/og-card-1200x630.png?v=2"/>
 <meta property="og:image:type" content="image/png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
@@ -16,8 +16,8 @@
 <meta property="profile:last_name" content="Bazaga"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Adrián Bazaga — LLM Post-Training &amp; AI Research, Microsoft"/>
-<meta name="twitter:description" content="Senior Research Scientist at Microsoft, leading LLM post-training for Aion Instruct and Mu. PhD in Machine Learning from the University of Cambridge."/>
-<meta name="twitter:image" content="https://bazaga.ai/assets/img/og-card-1200x630.png?v=1"/>
+<meta name="twitter:description" content="Senior Research Scientist at Microsoft, leading mid-training and post-training for Aion Instruct and Mu: synthetic data generation, RLHF &amp; RLVR, reward modeling, agentic reasoning and alignment."/>
+<meta name="twitter:image" content="https://bazaga.ai/assets/img/og-card-1200x630.png?v=2"/>
 <meta name="twitter:image:alt" content="Adrián Bazaga — Senior Research Scientist and Post-Training Lead at Microsoft"/>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous"/> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap"> <link rel="icon" href="/assets/img/favicon_a.ico">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
@@ -36,12 +36,15 @@
       "givenName": "Adrián",
       "familyName": "Bazaga",
       "url": "https://bazaga.ai/",
-      "image": "https://bazaga.ai/assets/img/og-card-1200x630.png?v=1",
+      "image": "https://bazaga.ai/assets/img/og-card-1200x630.png?v=2",
       "jobTitle": "Senior Research Scientist",
-      "description": "Senior Research Scientist and Post-Training Lead at Microsoft, working on large language model post-training, alignment and reasoning. PhD in Machine Learning from the University of Cambridge.",
+      "description": "Senior Research Scientist and Post-Training Lead at Microsoft, leading mid-training and post-training for the language models that ship in Windows: synthetic data generation, reinforcement learning (RLHF and RLVR), reward modeling, agentic reasoning, alignment and evaluation. PhD in Machine Learning from the University of Cambridge.",
       "knowsAbout": [
         "Large language models",
         "LLM post-training",
+        "Mid-training",
+        "Agentic reasoning",
+        "AI agents",
         "Reinforcement learning from human feedback (RLHF)",
         "Direct preference optimization (DPO)",
         "Reinforcement learning with verifiable rewards (RLVR)",
@@ -50,6 +53,7 @@
         "Reward modeling",
         "AI alignment",
         "Reasoning in language models",
+        "Model evaluation",
         "Small language models",
         "On-device AI",
         "Natural language processing",
@@ -104,7 +108,7 @@
       "isPartOf": { "@id": "https://bazaga.ai/#website" },
       "about": { "@id": "https://bazaga.ai/#person" },
       "mainEntity": { "@id": "https://bazaga.ai/#person" },
-      "primaryImageOfPage": "https://bazaga.ai/assets/img/og-card-1200x630.png?v=1",
+      "primaryImageOfPage": "https://bazaga.ai/assets/img/og-card-1200x630.png?v=2",
       "inLanguage": "en-GB"
     }
   ]
@@ -138,7 +142,7 @@
         <h1>Adrián Bazaga</h1>
         <p class="rx-hero-role">Senior Research Scientist · Tech Lead (SLM) · <strong>Post-Training Lead</strong></p>
         <p class="rx-hero-affil">Microsoft &nbsp;•&nbsp; PhD, University of Cambridge</p>
-        <p class="rx-hero-tagline">I lead post-training for the language models that ship in Windows, spanning data, reinforcement learning, alignment, and evaluation.</p>
+        <p class="rx-hero-tagline">I lead mid-training and post-training for the language models that ship in Windows, spanning synthetic data generation, reinforcement learning (RLHF &amp; RLVR), reward modeling, agentic reasoning, alignment, and evaluation.</p>
         <div class="rx-social">
           <a href="mailto:%61%64%72%62%7A%67@%67%6D%61%69%6C.%63%6F%6D" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
           <a href="https://scholar.google.com/citations?user=lrOLKgQAAAAJ" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
@@ -159,8 +163,8 @@
     <div class="rx-wrap">
       <h2 class="rx-h">About me</h2>
       <div class="rx-readable">
-        <p class="rx-lead">I’m a Senior Research Scientist, Tech Lead (SLM) and Post-Training Lead at <a href="https://www.microsoft.com/applied-sciences/people/adrian-bazaga" target="_blank" rel="noopener noreferrer">Microsoft</a>, working on large language models (LLMs) and natural language processing (NLP). I teach language models to follow instructions, reason more reliably, and stay helpful and safe, and I’m broadly interested in how much capability can be packed into models small enough to run on your own device.</p>
-        <p>I lead post-training for <strong>Aion Instruct</strong>, Microsoft’s foundational language model for Windows, <a href="https://www.youtube.com/live/FFMm454fxNA?t=268s" target="_blank" rel="noopener noreferrer">unveiled by Satya Nadella at Microsoft Build 2026</a>. I own the end-to-end stack from data preparation → pre-training → mid-training → post-training → evaluation, advancing state-of-the-art foundational language models at global scale. My post-training work spans supervised fine-tuning (SFT), synthetic data generation, direct preference optimization (DPO), reinforcement learning (RLVR and RLHF), and reward modeling, driving human alignment across response quality, conciseness, factuality, and safety.</p>
+        <p class="rx-lead">I’m a Senior Research Scientist, Tech Lead (SLM) and Post-Training Lead at <a href="https://www.microsoft.com/applied-sciences/people/adrian-bazaga" target="_blank" rel="noopener noreferrer">Microsoft</a>, working on large language models (LLMs) and natural language processing (NLP). I teach language models to follow instructions, reason and act more reliably as agents, and stay helpful and safe, and I’m broadly interested in how much capability can be packed into models small enough to run on your own device.</p>
+        <p>I lead post-training for <strong>Aion Instruct</strong>, Microsoft’s foundational language model for Windows, <a href="https://www.youtube.com/live/FFMm454fxNA?t=268s" target="_blank" rel="noopener noreferrer">unveiled by Satya Nadella at Microsoft Build 2026</a>. I own the end-to-end stack from data preparation → pre-training → mid-training → post-training → evaluation, advancing state-of-the-art foundational language models at global scale. My post-training work spans supervised fine-tuning (SFT), synthetic data generation, direct preference optimization (DPO), reinforcement learning (RLVR and RLHF), reward modeling, and agentic reasoning, driving human alignment across response quality, conciseness, factuality, and safety.</p>
         <p>I also led post-training for <a href="https://blogs.windows.com/windowsexperience/2025/06/23/introducing-mu-language-model-and-how-it-enabled-the-agent-in-windows-settings/" target="_blank" rel="noopener noreferrer">Mu</a>, Microsoft’s blazing-fast on-device SLM, and built the <a href="https://blogs.windows.com/windowsexperience/2025/05/06/introducing-a-new-generation-of-windows-experiences/" target="_blank" rel="noopener noreferrer">Windows Settings agent</a>, now live on Copilot+ devices.</p>
         <p>I hold a Ph.D. in Machine Learning from the <strong>University of Cambridge</strong>, advised by <a href="https://scholar.google.com/citations?user=4YhNJBEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Pietro Liò</a> and <a href="https://scholar.google.com/citations?user=ucG_41AAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Gos Micklem</a>, with work published at ICLR, ICML, ACL and EMNLP as well as in Nature journals. Previously I interned at Microsoft Research and Amazon AGI, and spent several years at the intersection of artificial intelligence (AI) and biology across startups and research labs. Originally from <svg class="rx-flag" viewBox="0 0 6 4" role="img" aria-label="Spain"><rect width="6" height="4" fill="#AA151B"></rect><rect y="1" width="6" height="2" fill="#F1BF00"></rect></svg> Spain.</p>
         <div class="rx-link-btns" style="margin-top:6px">
@@ -179,7 +183,7 @@
         </div>
         <a class="rx-see-all" href="/research/">All publications &rarr;</a>
       </div>
-      <p class="rx-section-lead">My research advances the capabilities of foundational language models, spanning post-training, alignment, reasoning, and efficiency, with broader interests across machine learning such as Geometric &amp; Graph Deep Learning and ML for Science. The works below are a selected snapshot, not a complete picture of everything I’m currently exploring.</p>
+      <p class="rx-section-lead">My research advances the capabilities of foundational language models, spanning mid-training and post-training, synthetic data generation, reinforcement learning (RLHF &amp; RLVR), reward modeling, agentic reasoning, alignment, and efficiency, with broader interests across machine learning such as Geometric &amp; Graph Deep Learning and ML for Science. The works below are a selected snapshot, not a complete picture of everything I’m currently exploring.</p>
 
       <div class="rx-theme">
         <h3 class="rx-theme-title"><span class="rx-theme-num">1</span> LLM Training &amp; Data-Efficient Learning</h3>
@@ -325,7 +329,7 @@
           <div class="rx-exp-item">
             <div class="rx-exp-role">Senior Research Scientist, Post-Training Lead</div>
             <div class="rx-exp-meta"><span class="rx-exp-org">Microsoft</span> · Jan 2025 – Present · London, UK</div>
-            <p>Lead post-training for Aion Instruct and Mu: SFT, DPO, RLVR, RLHF, reward modeling, and synthetic data generation, shipped to millions of Windows devices.</p>
+            <p>Lead mid-training and post-training for Aion Instruct and Mu: synthetic data generation, SFT, DPO, RLVR, RLHF, reward modeling, and agentic reasoning, shipped to millions of Windows devices.</p>
           </div>
           <div class="rx-exp-item">
             <div class="rx-exp-role">Research Scientist</div>
