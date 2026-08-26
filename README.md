@@ -24,7 +24,7 @@ sitemap.xml, robots.txt, llms.txt
 assets/
   css/redesign.css         # site design system (layered over main.css)
   js/                      # theme.js + dark_mode.js (themes), common.js
-  img/                     # photo, paper figures, product images, og-card.png
+  img/                     # photo, paper figures, product images, og-card-1200x630.png
   files/thesis.pdf         # PhD thesis
 ```
 
@@ -43,7 +43,7 @@ make preview            # serves at http://127.0.0.1:4000
 - **Styling** — edit [`assets/css/redesign.css`](assets/css/redesign.css).
 - **News** — add a `.rx-news-item` block at the top of the `#rx-news` timeline in `index.html`. It is static HTML so that crawlers and link previews can read it.
 - **SEO** — each page carries its own `<title>`, meta description, Open Graph/Twitter tags and JSON-LD. Update the JSON-LD `Person` block in `index.html` when your role changes, and add new papers to the `ItemList` in `research/index.html`.
-- **Social card** — `assets/img/og-card.png` (1200×630) is referenced by every page's `og:image`.
+- **Social card** — `assets/img/og-card-1200x630.png` is referenced by every page's `og:image`.
 
 ## Deployment
 
