@@ -1,6 +1,6 @@
 # bazaga.ai
 
-Personal research website of **Adrián Bazaga** — Senior Researcher and Post-Training Lead at Microsoft, PhD from the University of Cambridge.
+Personal research website of **Adrián Bazaga** — Principal Research Scientist, Tech Lead (SLM) and Post-Training Lead at Microsoft, PhD from the University of Cambridge.
 
 Live at **[bazaga.ai](https://bazaga.ai)**.
 
@@ -24,7 +24,7 @@ sitemap.xml, robots.txt, llms.txt
 assets/
   css/redesign.css         # site design system (layered over main.css)
   js/                      # theme.js + dark_mode.js (themes), common.js
-  img/                     # photo, paper figures, product images, og-card-1200x630.png
+  img/                     # photo, paper figures, product images, social-card SVG and PNG
   files/thesis.pdf         # PhD thesis
 ```
 
@@ -43,15 +43,14 @@ make preview            # serves at http://127.0.0.1:4000
 - **Styling** — edit [`assets/css/redesign.css`](assets/css/redesign.css).
 - **News** — add a `.rx-news-item` block at the top of the `#rx-news` timeline in `index.html`. It is static HTML so that crawlers and link previews can read it.
 - **SEO** — each page carries its own `<title>`, meta description, Open Graph/Twitter tags and JSON-LD. Update the JSON-LD `Person` block in `index.html` when your role changes, and add new papers to the `ItemList` in `research/index.html`.
-- **Social card** — `assets/img/og-card-1200x630.png` is referenced by every page's `og:image`.
+- **Social card** — edit `assets/img/og-card-1200x630.svg`, then export it at 1200×630 to `assets/img/og-card-1200x630.png`, which is referenced by every page's `og:image`.
 
 ## Deployment
 
-Hosted on **GitHub Pages**, served directly from the `gh-pages` branch (no build or CI step — the served files are exactly what is committed). The `master` branch mirrors the same content. To publish changes, commit and push both branches:
+Hosted on **GitHub Pages**, served directly from the `gh-pages` branch (no build or CI step). Day-to-day work happens on `master`; `make deploy` pushes `master` and force-mirrors it to `gh-pages`:
 
 ```bash
-git push origin gh-pages    # updates the live site
-git push origin master      # keep master in sync
+make deploy
 ```
 
 ## Credits

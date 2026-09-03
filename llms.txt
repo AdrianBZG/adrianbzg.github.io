@@ -1,23 +1,25 @@
 # Adrián Bazaga
 
-> Senior Research Scientist and Post-Training Lead at Microsoft, leading mid-training and
-> post-training for the language models that ship in Windows: synthetic data generation,
-> reinforcement learning (RLHF and RLVR), reward modeling, agentic reasoning, alignment and
-> evaluation. PhD in Machine Learning from the University of Cambridge. Based in London, UK.
+> Principal Research Scientist, Tech Lead (SLM) and Post-Training Lead at Microsoft, leading
+> end-to-end post-training for the Aion Instruct model family, Microsoft's foundational language
+> models for Windows: SFT, DPO, reinforcement learning (RLHF and RLVR), reward modeling, agentic
+> tool use, safety, alignment
+> and evaluation. PhD in Machine Learning from the University of Cambridge. Based in London, UK.
 > Originally from Spain.
 
 Also written as: Adrian Bazaga (unaccented), A. Bazaga.
 
 ## Current role
 
-- **Senior Research Scientist · Tech Lead (SLM) · Post-Training Lead**, Microsoft, London (Jan 2025 – present).
-- Leads mid-training and post-training end to end for **Aion Instruct**, Microsoft's foundational
-  language model for Windows, unveiled by Satya Nadella at Microsoft Build 2026. This spans
-  synthetic data generation, SFT, DPO, RLVR, RLHF, reward modeling and agentic reasoning.
+- **Principal Research Scientist · Tech Lead (SLM) · Post-Training Lead**, Microsoft, London (Sep 2026 – present).
+- At Microsoft since January 2025; previously Senior Research Scientist (Sep 2025 – Aug 2026)
+  and Research Scientist (Jan – Aug 2025).
+- Leads end-to-end post-training for **the Aion Instruct model family**, Microsoft's foundational language models
+  for Windows, presented by Satya Nadella at Microsoft Build 2026 and shipped on Windows devices.
+  This spans SFT, DPO, RLVR, RLHF, reward modeling, agentic tool use, safety and evaluation.
 - Led post-training for **Mu**, Microsoft's 0.3B on-device small language model, and built the
   Windows Settings agent shipping on Copilot+ devices.
-- Owns the stack from data preparation, pre-training and mid-training through post-training,
-  agentic reasoning and evaluation.
+- Leads the model roadmap across data, training, post-training, evaluation and release readiness.
 
 ## Research areas
 

@@ -114,6 +114,8 @@ body.rx-home, body.rx-research { padding-bottom: 0; }
 .rx-section > .rx-wrap > .rx-h,
 .rx-h { font-size: 1.6rem; margin: 0 0 6px; }
 .rx-section-lead { color: var(--rx-ink-soft); max-width: var(--rx-readw); margin: 0 0 26px; }
+.rx-home .rx-about .rx-readable,
+.rx-home #research > .rx-wrap > .rx-section-lead { max-width: none; }
 .rx-see-all { font-weight: 600; font-size: 0.92rem; white-space: nowrap; }
 .rx-section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 
@@ -210,12 +212,12 @@ body.rx-home, body.rx-research { padding-bottom: 0; }
 
 /* -------- Hero ----------------------------------------------------------- */
 .rx-hero { padding: 54px 0 20px; }
-.rx-hero-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 48px; align-items: center; }
+.rx-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 48px; align-items: center; }
 .rx-hero h1 { font-size: 2.9rem; margin: 0 0 6px; }
 .rx-hero-role { font-size: 1.18rem; color: var(--rx-ink); font-weight: 500; margin: 0 0 4px; }
-.rx-hero-role strong { color: var(--rx-accent); font-weight: 600; }
+.rx-hero-role strong { color: var(--rx-accent); font-weight: 600; white-space: nowrap; }
 .rx-hero-affil { color: var(--rx-muted); font-size: 0.98rem; margin: 0 0 16px; }
-.rx-hero-tagline { color: var(--rx-ink-soft); font-size: 1.05rem; max-width: 34em; margin: 0 0 18px; }
+.rx-hero-tagline { color: var(--rx-ink-soft); font-size: 1.05rem; margin: 0 0 18px; }
 .rx-hero-photo { justify-self: center; }
 .rx-hero-photo img {
   width: 260px; height: 260px; object-fit: cover; border-radius: 20px;
