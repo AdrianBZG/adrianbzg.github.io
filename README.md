@@ -57,6 +57,8 @@ make deploy
 
 Originally bootstrapped from the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme by Maruan Al-Shedivat, since rebuilt as a bespoke static site.
 
+The [GRIP thumbnail](assets/img/research/papers/grip.svg) reproduces [Figure 3 of *Get a GRIP, this will be a long TRIP: A Quantifiable Long-Range Framework for Verifying Over-squashing*](https://arxiv.org/html/2610.03556v1#S5.F3) by Ferran Hernandez Caralt, Simon Heilig, Adrián Bazaga, Asja Fischer, Moshe Eliasof and Pietro Liò. The original arXiv SVG is unchanged and licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
 ## License
 
 Code is released under the [MIT License](LICENSE). Site content and images © Adrián Bazaga.
